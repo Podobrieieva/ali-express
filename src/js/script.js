@@ -83,10 +83,10 @@ window.addEventListener('DOMContentLoaded', () => {
   
     function sliceTitle() { 
       titles.forEach((item) => {
-      if (item.textContent.length < 70) {
+      if (item.textContent.length < 60) {
         return;
       } else {
-        const str = item.textContent.slice(0, 71) + '...';
+        const str = item.textContent.slice(0, 61) + '...';
         item.textContent = str;
       }
       });
